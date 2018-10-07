@@ -17,3 +17,4 @@ elif a == b:
     print("liczba x jest równa y i wynosi: {x}")
 else:
     print('OK')
+
