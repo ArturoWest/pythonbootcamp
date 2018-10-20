@@ -7,15 +7,15 @@ print(liczby)
 indeksy = list(range(len(liczby)))
 
 
-for i in indeksy:
+for i in liczby: # do czego mamy się odwoływać ?
     if min_i == None or liczby[i] < liczby[min_i]:
         min_i = i
     if max_i == None or liczby[i] > liczby[max_i]:
         max_i = i
-    print(i)
+    print(min_i)
     print(max_i)
 
-if min_i is not None nad max_i is not None:
+if min_i is not None and max_i is not None:
     tmp = liczby[min_i]
     liczby[min_i] = liczby[max_i]
     liczby[max_i] = tmp
@@ -24,4 +24,4 @@ if min_i is not None nad max_i is not None:
 
 
 
-#assert liczby == [1, 2, 5, 4, 3]
+assert liczby == [1, 2, 5, 4, 3]
