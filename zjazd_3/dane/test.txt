@@ -1,0 +1,2 @@
+1: pierwsza linia tekstu 
+2: druga linia tekstu
